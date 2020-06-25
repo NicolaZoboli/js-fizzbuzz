@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  background-color: #FEFEE3;
+}
+
+#fizzBuzzList {
+  list-style: none;
+  padding: 20px 40px;
+  margin: 20px 0;
+  background-color: #CADBC8;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  box-shadow: 5px 10px lightgrey;
+}
+
+.fizzBuzz {
+  font-size: 25px;
+  font-family: 'Pangolin', cursive;
+  color: #EE964B;
+  text-shadow: .5px .5px black;
+}
+
+.fizz {
+  font-size: 20px;
+  font-family: 'Piedra', cursive;
+  color: #A40E4C;
+  text-shadow: .5px .5px black;
+}
+
+.buzz {
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+  color: #12664F;
+  text-shadow: .5px .5px black;
+}
+
+.number {
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  color: #645DD7;
+  text-shadow: .5px .5px black;
+}
